@@ -236,10 +236,11 @@ function createPopup(title, message) {
 
   setTimeout(() => {
     popup.remove();
-  }, 7000);
+  }, 3000);
 }
 
-triggerRandomPopups();
+setInterval(triggerRandomPopups, 3000);
+// triggerRandomPopups();
 
 window.onload = () => {
   generateCaptcha(); 
