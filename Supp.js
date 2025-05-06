@@ -240,7 +240,7 @@ function createPopup(title, message) {
 }
 
 setInterval(triggerRandomPopups, 3000);
-// triggerRandomPopups();
+
 
 window.onload = () => {
   generateCaptcha(); 
